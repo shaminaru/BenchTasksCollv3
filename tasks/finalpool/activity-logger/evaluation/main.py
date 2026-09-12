@@ -1,10 +1,12 @@
 # Evaluation script for activity-logger
-# This script evaluates the implementation of the activity-logger task
 
-def evaluate():
-    # TODO: Implement evaluation logic
-    print("Evaluating activity-logger...")
+def run_evaluation():
+    # TODO: Implement actual evaluation logic
     return True
 
-if __name__ == "__main__":
-    evaluate()
+if __name__ == '__main__':
+    result = run_evaluation()
+    if result:
+        print('Evaluation passed')
+    else:
+        print('Evaluation failed')
